@@ -47,7 +47,7 @@
     <div class="article-list">
       {#each paginatedItems as { metadata: { title, description, tags, outline, slug }, path }}
         <div class="mb-4">
-          <a href={path.replace(/\.[^/.]+$/, "")}
+          <a sveltekit:prefetch href={path.replace(/\.[^/.]+$/, "")}
             ><h2 class="text-3xl leading-relaxed">{title}</h2></a
           >
           <p>{description}</p>
