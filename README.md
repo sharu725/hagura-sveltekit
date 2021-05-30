@@ -1,8 +1,8 @@
 # Hagura SvelteKit
 
-This is a port of [Hagura Jekyll Theme](https://webjeda.com/hagura/)
+This is a port of [Hagura Jekyll Theme](https://webjeda.com/hagura/). 
 
-It processess `.markdown` posts into HTML using [mdsvex](https://mdsvex.com/).
+A simple blog with pagination and highly legible layout. It uses TailwindCSS for styles. It processess `.md`(markdown) posts into HTML using [mdsvex](https://mdsvex.com/).
 
 **Demo:** [https://hagura-sveltekit.netlify.app/](https://hagura-sveltekit.netlify.app/)
 
