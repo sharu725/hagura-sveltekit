@@ -4,7 +4,7 @@ This is a port of [Hagura Jekyll Theme](https://webjeda.com/hagura/)
 
 It processess `.markdown` posts into HTML using [mdsvex](https://mdsvex.com/).
 
-Demo: [https://hagura-sveltekit.netlify.app/](https://hagura-sveltekit.netlify.app/)
+**Demo:** [https://hagura-sveltekit.netlify.app/](https://hagura-sveltekit.netlify.app/)
 
 ## Installation
 
