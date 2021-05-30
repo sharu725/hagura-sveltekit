@@ -6,6 +6,12 @@ A simple blog with pagination and highly legible layout. It uses TailwindCSS for
 
 **Demo:** [https://hagura-sveltekit.netlify.app/](https://hagura-sveltekit.netlify.app/)
 
+## Features
+ - Markdown blog posts
+ - Supports svelte components in markdown files
+ - TailwindCSS styles
+ - Basic SEO
+
 ## Installation
 
 Run the following commands.
