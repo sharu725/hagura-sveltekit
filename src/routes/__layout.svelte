@@ -1,7 +1,6 @@
 <script>
   import "../app.postcss";
   import "../style.css";
-  import "../google-fonts.css";
 </script>
 
 <div class="body-wrapper max-w-screen-md mx-auto">
