@@ -9,6 +9,7 @@ A simple blog with pagination and highly legible layout. It uses TailwindCSS for
 ## Features
 
 - Markdown blog posts
+- Pagination using [svelte-paginate](https://www.npmjs.com/package/svelte-paginate)
 - Supports svelte components in markdown files
 - TailwindCSS styles
 - Basic SEO
