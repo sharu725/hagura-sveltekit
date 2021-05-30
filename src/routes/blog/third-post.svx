@@ -1,4 +1,5 @@
 ---
+layout: blog
 title: "Third post"
 slug: "firstpost"
 description: "Welcome to Earth. It’s hot in the summer and cold in the winter. It’s round and wet and crowded. On the outside, babies, you’ve got a hundred years here."
@@ -8,10 +9,8 @@ tags:
     { name: "Tailwind", link: "https://www.tailwindcss.com" },
     { name: "Markdown", link: "https://www.markdownguide.org/" },
   ]
-published_at: "3 April 2021"
+date: "1st May 2021"
 ---
-
-# {title}
 
 Truly it was a great journey, and in it I met with many, whom to know was to love; but whom never could I see again; for life has not space enough; and each must do his duty to the security and well-being of the Redoubt. Yet, for all that I have set down, we travelled much, always; but there were so many millions, and so few years.
 
