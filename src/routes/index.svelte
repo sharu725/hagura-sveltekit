@@ -29,6 +29,7 @@
 
 <script>
   import { paginate, PaginationNav } from "svelte-paginate";
+  import { seo } from "$lib/store";
   //https://www.npmjs.com/package/svelte-paginate
 
   export let posts;
@@ -37,6 +38,11 @@
   let currentPage = 1;
   let pageSize = 2;
   $: paginatedItems = paginate({ items, pageSize, currentPage });
+
+  $seo = {
+    title: "Hagura - Light",
+    description: "Hagura is a light-weight theme/template built for sveltekit.",
+  };
 </script>
 
 <main>

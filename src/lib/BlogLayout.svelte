@@ -1,7 +1,14 @@
 <script>
+  import { seo } from "$lib/store";
+
   export let title;
   export let description;
   export let date;
+
+  $seo = {
+    title: title,
+    description: description,
+  };
 </script>
 
 <h1 class="font-bold text-6xl mb-4">{title}</h1>
