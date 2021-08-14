@@ -5,9 +5,7 @@
   export async function load({ fetch }) {
     const res = await fetch(`/posts.json`);
     const posts = await res.json();
-
-    console.log("Got posts", posts);
-
+    
     return {
       props: {
         posts,

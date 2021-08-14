@@ -1,8 +1,5 @@
 export async function get() {
     const imports = import.meta.glob("./blog/*.{md,svx}");
-
-    console.log(imports);
-
     let body = [];
 
     for (const path in imports) {
@@ -17,8 +14,6 @@ export async function get() {
     }
 
     const posts = await Promise.all(body);
-
-    console.log(posts)
 
     return {
         body: JSON.stringify(posts)
