@@ -1,24 +1,13 @@
 <script context="module">
-  const posts = import.meta.glob("./blog/*.{md,svx}");
-
-  let body = [];
-
-  for (const path in posts) {
-    body.push(
-      posts[path]().then(({ metadata }) => {
-        return {
-          metadata,
-          path,
-        };
-      })
-    );
-  }
   /**
    * @type {import('@sveltejs/kit').Load}
    */
-  export async function load() {
-    const res = await Promise.all(body);
-    const posts = res;
+  export async function load({ fetch }) {
+    const res = await fetch(`/posts.json`);
+    const posts = await res.json();
+
+    console.log("Got posts", posts);
+
     return {
       props: {
         posts,
