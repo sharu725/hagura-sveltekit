@@ -13,7 +13,7 @@ A simple blog with pagination and highly legible layout. It uses TailwindCSS for
 - Supports svelte components in markdown files
 - TailwindCSS styles
 - Basic SEO
-- Netlify adapter(change for your requirement)
+- Netlify adapter(change as per your requirement)
 
 ## Installation
 
