@@ -10,4 +10,9 @@
     </a>
   </header>
   <slot />
+  <div>
+    <p>
+      <a href="https://github.com/sharu725/hagura-sveltekit">Github</a>
+    </p>
+  </div>
 </div>
