@@ -1,10 +1,13 @@
 <script>
-  import Seo from "$lib/Seo.svelte";
   import "../app.postcss";
   import "../style.css";
 </script>
 
-<Seo />
 <div class="body-wrapper max-w-screen-md mx-auto">
+  <header>
+    <a href="/">
+      <div class="home" />
+    </a>
+  </header>
   <slot />
 </div>

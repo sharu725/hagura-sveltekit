@@ -109,3 +109,24 @@ blockquote {
 .option.disabled:hover {
   background-color: transparent !important;
 }
+
+.home {
+  background-image: url(/left-arrow.svg);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  opacity: 0.9;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .home {
+    top: 90%;
+    left: 90%;
+    height: 30px;
+    width: 30px;
+    opacity: 0.6;
+  }
+}
