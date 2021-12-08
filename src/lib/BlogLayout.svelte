@@ -14,9 +14,3 @@
   <title>{title}</title>
   <meta name="description" content={description} />
 </svelte:head>
-
-<style>
-  .post {
-    margin-bottom: 4rem;
-  }
-</style>

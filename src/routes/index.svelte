@@ -24,19 +24,20 @@
   let currentPage = 1;
   let pageSize = 2;
   $: paginatedItems = paginate({ items, pageSize, currentPage });
-
 </script>
 
 <main>
   <article>
-    <h1 class="headline text-4xl md:text-7xl leading-relaxed font-black font-display mb-4">
+    <h1
+      class="headline text-4xl md:text-7xl leading-relaxed font-black font-display mb-4"
+    >
       Hagura - Light!
     </h1>
-    <div class="article-list">
+    <div class="article-list py-10">
       {#each paginatedItems as { metadata: { title, description, tags, outline, slug }, path }}
         <div class="mb-4">
           <a sveltekit:prefetch href={path.replace(/\.[^/.]+$/, "")}
-            ><h2 class="text-3xl leading-relaxed">{title}</h2></a
+            ><h2 class="text-3xl md:text-4xl leading-relaxed">{title}</h2></a
           >
           <p>{description}</p>
         </div>

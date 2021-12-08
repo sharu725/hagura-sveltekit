@@ -1,20 +1,10 @@
-html,
 body {
-  height: 100%;
-}
-body {
-  font-family: work sans, sans-serif;
-  line-height: 1.7;
-  font-size: 20px;
-  color: #333;
-  padding: 2em 1em;
+  @apply font-body leading-relaxed text-2xl text-gray-700 py-10 px-5;
   text-rendering: optimizeLegibility;
-  height: 100%;
 }
 @media screen and (max-width: 600px) {
   body {
-    max-width: 100%;
-    padding: 1em;
+    @apply max-w-full p-4 text-xl;
   }
 }
 h1,
@@ -23,22 +13,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: lato, helvetica neue, Helvetica, sans-serif;
-  font-weight: 700;
-  line-height: 1.8;
-  margin: 0;
-  text-transform: capitalize;
+  @apply font-display font-bold leading-snug m-0 capitalize;
 }
 a {
   color: #60c17d;
   text-decoration: none;
 }
 a:hover {
-  color: #333;
+  @apply text-gray-700;
 }
 p a {
-  color: #333;
-  text-decoration: none;
   background: -webkit-linear-gradient(transparent 90%, #85cf9b 10%);
   background: -moz-linear-gradient(transparent 90%, #85cf9b 10%);
   background: linear-gradient(transparent 90%, #85cf9b 10%);
@@ -47,11 +31,12 @@ p a {
   -webkit-transition: box-shadow ease 1s;
   -moz-transition: box-shadow ease 1s;
   transition: box-shadow ease 1s;
+  @apply text-gray-700 no-underline;
 }
 p a:hover {
-  color: #fff;
   -webkit-box-shadow: inset 0 -100px 0 0 #85cf9b;
   box-shadow: inset 0 -100px 0 0 #85cf9b;
+  @apply text-white;
 }
 figure {
   margin: 0;
@@ -119,6 +104,11 @@ blockquote {
   position: fixed;
   top: 50px;
   left: 50px;
+}
+
+.article p,
+.post p {
+  @apply mb-4 leading-relaxed;
 }
 
 @media screen and (max-width: 1000px) {

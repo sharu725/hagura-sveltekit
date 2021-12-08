@@ -3,7 +3,7 @@
   import "../style.css";
 </script>
 
-<div class="body-wrapper max-w-screen-md mx-auto">
+<div class="body-wrapper max-w-screen-md mx-auto mb-10">
   <header>
     <a href="/">
       <div class="home" />
