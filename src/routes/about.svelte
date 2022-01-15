@@ -1,7 +1,9 @@
 <h1 class="headline">About</h1>
 
 <p>
-  For more themes please visit
+  Hagura is a port of <a href="https://github.com/sharu725/hagura"
+    >Hagura Jekyll Theme</a
+  >. For more themes please visit
   <a href="https://sveltethemes.dev">Svelte Themes </a>
 </p>
 
