@@ -17,18 +17,6 @@ body {
   text-rendering: optimizeLegibility;
   margin: 0;
 }
-.body {
-  color: var(--text-color);
-  background-color: var(--bg-color);
-  transition: all ease 300ms;
-}
-
-.wrapper {
-  min-height: 100vh;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: var(--size-6) var(--size-2);
-}
 
 h1,
 h2,
@@ -180,6 +168,13 @@ article .date {
 }
 
 @media screen and (max-width: 600px) {
+  .headline {
+    font-size: var(--font-size-5);
+  }
+  .article p,
+  .post p {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 1000px) {

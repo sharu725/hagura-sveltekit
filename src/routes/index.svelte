@@ -33,21 +33,28 @@
       {#each paginatedItems as { metadata: { title, description, tags, outline, slug }, path }}
         <div class="mb-4">
           <a sveltekit:prefetch href={path.replace(/\.[^/.]+$/, "")}
-            ><h2 class="text-3xl md:text-4xl leading-relaxed">{title}</h2></a
+            ><h2>{title}</h2></a
           >
           <p>{description}</p>
         </div>
       {/each}
     </div>
-    <div class="mx-auto">
-      <PaginationNav
-        totalItems={items.length}
-        {pageSize}
-        {currentPage}
-        limit={1}
-        showStepOptions={true}
-        on:setPage={(e) => (currentPage = e.detail.page)}
-      />
-    </div>
+
+    <PaginationNav
+      totalItems={items.length}
+      {pageSize}
+      {currentPage}
+      limit={1}
+      showStepOptions={true}
+      on:setPage={(e) => (currentPage = e.detail.page)}
+    />
   </article>
 </main>
+
+<style>
+  @media screen and (max-width: 600px) {
+    h2 {
+      font-size: var(--font-size-3);
+    }
+  }
+</style>
