@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "First post"
-slug: "firstpost"
+slug: "first-post"
 description: "Truly it was a great journey, and in it I met with many, whom to know was to love; but whom never could I see again; for life has not space enough; and each must do his duty to the security and well-being of the Redoubt."
 tags:
   [

@@ -4,8 +4,12 @@
   export let date;
 </script>
 
-<h1 class="headline">{title}</h1>
-<p class="date">{date}</p>
+{#if title}
+  <h1 class="headline">{title}</h1>
+{/if}
+{#if date}
+  <p class="date">{date}</p>
+{/if}
 <div class="post">
   <slot />
 </div>
