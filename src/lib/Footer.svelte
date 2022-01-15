@@ -7,7 +7,7 @@
   <div class="links">
     <a href="/about/">About</a>
     <a href="/contact/">Contact</a>
-    <a href="https://github.com/sharu725/hagura-sveltekit">Github</a>
+    <a href="https://github.com/sharu725/hagura-sveltekit">Download</a>
 
     <span
       aria-label="Switch Dark or Light Mode"

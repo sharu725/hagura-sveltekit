@@ -11,7 +11,8 @@ A simple blog with pagination and highly legible layout. It uses TailwindCSS for
 - Markdown blog posts
 - Pagination using [svelte-paginate](https://www.npmjs.com/package/svelte-paginate)
 - Supports svelte components in markdown files
-- TailwindCSS styles
+- ~~TailwindCSS styles~~
+- Use Open-Props
 - Basic SEO
 - Netlify adapter(change as per your requirement)
 
