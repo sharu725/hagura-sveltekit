@@ -4,8 +4,8 @@
   export let date;
 </script>
 
-<h1 class="font-bold text-4xl md:text-6xl mb-4">{title}</h1>
-<p class="text-gray-400 mb-2">{date}</p>
+<h1 class="headline">{title}</h1>
+<p class="date">{date}</p>
 <div class="post">
   <slot />
 </div>

@@ -5,7 +5,7 @@
   export async function load({ fetch }) {
     const res = await fetch(`/posts.json`);
     const posts = await res.json();
-    
+
     return {
       props: {
         posts,
@@ -28,11 +28,7 @@
 
 <main>
   <article>
-    <h1
-      class="headline text-4xl md:text-7xl leading-relaxed font-black font-display mb-4"
-    >
-      Hagura - Light!
-    </h1>
+    <h1 class="headline">Hagura - Light!</h1>
     <div class="article-list py-10">
       {#each paginatedItems as { metadata: { title, description, tags, outline, slug }, path }}
         <div class="mb-4">

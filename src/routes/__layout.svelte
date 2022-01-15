@@ -1,18 +1,19 @@
 <script>
-  import "../app.postcss";
   import "../style.css";
+  import { darkMode } from "$lib/stores";
+  import Footer from "$lib/Footer.svelte";
 </script>
 
-<div class="body-wrapper max-w-screen-md mx-auto mb-10">
-  <header>
-    <a href="/">
-      <div class="home" />
-    </a>
-  </header>
-  <slot />
-  <div>
-    <p>
-      <a href="https://github.com/sharu725/hagura-sveltekit">Github</a>
-    </p>
+<div class="body" class:dark={$darkMode}>
+  <div class="wrapper">
+    <header>
+      <a href="/">
+        <div class="home" />
+      </a>
+    </header>
+    <article>
+      <slot />
+    </article>
+    <Footer />
   </div>
 </div>
