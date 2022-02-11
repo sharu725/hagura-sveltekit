@@ -12,7 +12,7 @@ A simple blog with pagination and highly legible layout. It uses TailwindCSS for
 - Pagination using [svelte-paginate](https://www.npmjs.com/package/svelte-paginate)
 - Supports svelte components in markdown files
 - ~~TailwindCSS styles~~
-- Use Open-Props
+- Open-Props styles
 - Basic SEO
 - Netlify adapter(change as per your requirement)
 
@@ -32,7 +32,7 @@ Use node 16
 
 ## Dependency
 
-The app needs node 16 to work as expected.
+The app needs node 16 or higher to work as expected.
 
 ## Contribute
 

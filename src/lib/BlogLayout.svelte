@@ -1,7 +1,5 @@
 <script>
-  export let title;
-  export let description;
-  export let date;
+  export let title, description, date;
 </script>
 
 {#if title}

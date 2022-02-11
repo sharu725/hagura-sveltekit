@@ -1,6 +1,6 @@
 <script>
   import { darkMode } from "$lib/stores";
-  let thisYear = new Date().getFullYear();
+  const thisYear = new Date().getFullYear();
 </script>
 
 <footer>
