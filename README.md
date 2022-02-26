@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/featured%20on-ST-brightgreen)](https://sveltethemes.dev)
 # Hagura SvelteKit
 
 This is a port of [Hagura Jekyll Theme](https://webjeda.com/hagura/).
