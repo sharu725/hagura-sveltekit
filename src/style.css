@@ -8,6 +8,7 @@
 .dark {
   --bg-color: var(--gray-9);
   --text-color: var(--gray-5);
+  --link-color: var(--brand-color);
 }
 
 body {
@@ -68,7 +69,7 @@ p a {
   -webkit-transition: all ease 500ms;
   -moz-transition: all ease 500ms;
   transition: all ease 500ms;
-  color: var(--gray-7);
+  color: var(--brand-color);
   padding: 0 var(--size-1);
   text-decoration: none;
 }
