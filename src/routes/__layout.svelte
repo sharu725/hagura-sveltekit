@@ -18,6 +18,10 @@
   </div>
 </div>
 
+<svelte:head>
+  <meta property="og:image" content="/hagura-sveltekit-template-theme.png" />
+</svelte:head>
+
 <style>
   .body {
     color: var(--text-color);

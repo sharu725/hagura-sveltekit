@@ -58,3 +58,9 @@
     }
   }
 </style>
+
+
+<svelte:head>
+  <title>Hagura - Sveltekit Template</title>
+  <meta name="description" content="Hagura - A minimal Sveltekit theme or template which uses mdsvex. Suitable for text based websites and blogs." />
+</svelte:head>

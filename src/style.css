@@ -42,6 +42,11 @@ a {
 a:hover {
   color: var(--gray-7);
 }
+a[role="button"],
+a[role="button"]:hover {
+  background: none;
+  box-shadow: none;
+}
 
 button {
   cursor: pointer;
