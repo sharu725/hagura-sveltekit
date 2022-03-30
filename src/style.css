@@ -148,16 +148,6 @@ blockquote {
   background-color: transparent !important;
 }
 
-.home {
-  background-image: url(/left-arrow.svg);
-  background-repeat: no-repeat;
-  height: 40px;
-  width: 40px;
-  opacity: 0.9;
-  position: fixed;
-  top: 50px;
-  left: 50px;
-}
 
 .article p,
 .post p {

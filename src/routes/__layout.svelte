@@ -35,6 +35,21 @@
     margin: 0 auto;
     padding: var(--size-6) var(--size-2);
   }
+  .home {
+    background-image: url(/left-arrow.svg);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    opacity: 0.9;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    transition-duration: 300ms;
+  }
+
+  .home:hover {
+    opacity: 0.7;
+  }
 
   @media screen and (max-width: 600px) {
     .body {
