@@ -45,6 +45,8 @@
     top: 50px;
     left: 50px;
     transition-duration: 300ms;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px #bababa;
   }
 
   .home:hover {
