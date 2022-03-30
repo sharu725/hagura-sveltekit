@@ -51,6 +51,16 @@
     opacity: 0.7;
   }
 
+  @media screen and (max-width: 1000px) {
+    .home {
+      top: 90%;
+      left: 90%;
+      height: 30px;
+      width: 30px;
+      opacity: 0.9;
+    }
+  }
+
   @media screen and (max-width: 600px) {
     .body {
       font-size: var(--font-size-2);

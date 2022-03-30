@@ -173,12 +173,4 @@ article .date {
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .home {
-    top: 90%;
-    left: 90%;
-    height: 30px;
-    width: 30px;
-    opacity: 0.6;
-  }
-}
+
