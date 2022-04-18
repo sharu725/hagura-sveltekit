@@ -1,13 +1,15 @@
 :root {
   --brand-color: #60c17d;
   --text-color: #333;
-  --bg-color: var(--gray-0);
+  --bg-color: white;
+  --shadow-color: var(--gray-5);
   --font-family: "work sans", "sans-serif";
   --font-size-default: 22px;
 }
 .dark {
   --bg-color: var(--gray-9);
   --text-color: var(--gray-5);
+  --shadow-color: var(--brand-color);
   --link-color: var(--brand-color);
 }
 
@@ -148,7 +150,6 @@ blockquote {
   background-color: transparent !important;
 }
 
-
 .article p,
 .post p {
   margin-bottom: var(--size-4);
@@ -172,5 +173,3 @@ article .date {
     text-align: left;
   }
 }
-
-
