@@ -12,10 +12,9 @@ A simple blog with pagination and highly legible layout. It uses TailwindCSS for
 - Markdown blog posts
 - Pagination using [svelte-paginate](https://www.npmjs.com/package/svelte-paginate)
 - Supports svelte components in markdown files
-- ~~TailwindCSS styles~~
 - Open-Props styles
 - Basic SEO
-- Netlify adapter(change as per your requirement)
+- Vercel adapter(change as per your requirement)
 
 ## Installation
 
@@ -23,17 +22,11 @@ Run the following commands.
 
 `git clone https://github.com/sharu725/hagura-sveltekit`
 
-Use node 16
-
 `npm install`
 
 `npm run dev` for development.
 
 `npm run build` for production.
-
-## Dependency
-
-The app needs node 16 or higher to work as expected.
 
 ## Contribute
 
