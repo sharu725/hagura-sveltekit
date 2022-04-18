@@ -1,11 +1,6 @@
 <script context="module">
-  /**
-   * @type {import('@sveltejs/kit').Load}
-   */
-  export async function load({ fetch }) {
-    const res = await fetch(`/posts.json`);
-    const posts = await res.json();
-
+  export async function load({ stuff }) {
+    const { posts } = stuff;
     return {
       props: {
         posts,
