@@ -2,14 +2,14 @@
   --brand-color: #60c17d;
   --text-color: #333;
   --bg-color: white;
-  --shadow-color: var(--gray-5);
+  --shadow-color: var(--gray-2);
   --font-family: "work sans", "sans-serif";
   --font-size-default: 22px;
 }
 .dark {
   --bg-color: var(--gray-9);
   --text-color: var(--gray-5);
-  --shadow-color: var(--brand-color);
+  --shadow-color: var(--green-6);
   --link-color: var(--brand-color);
 }
 

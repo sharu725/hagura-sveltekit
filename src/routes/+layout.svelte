@@ -1,5 +1,5 @@
 <script>
-  import "../../static/global.css";
+  import "$lib/css/global.css";
   import { darkMode } from "$lib/stores";
   import Footer from "$lib/Footer.svelte";
 </script>
@@ -56,7 +56,7 @@
     left: 50px;
     transition-duration: 300ms;
     border-radius: 50%;
-    box-shadow: 0 5px 10px var(--shadow-color);
+    box-shadow: var(--shadow-4)
   }
   .home svg {
     height: 40px;
