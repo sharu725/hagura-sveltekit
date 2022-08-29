@@ -2,9 +2,9 @@
   "name": "hagura-svelte",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/adapter-vercel": "next",
@@ -19,8 +19,7 @@
     "svelte": "^3.34.0",
     "postcss-jit-props": "^1.0.4",
     "svelte-preprocess": "^4.7.1",
-    "open-props": "^1.1.3",
-    "svelte-paginate": "^0.0.1"
+    "open-props": "^1.1.3"
   },
   "type": "module"
 }

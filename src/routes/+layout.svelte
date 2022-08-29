@@ -1,18 +1,5 @@
-<script context="module">
-  export async function load({ fetch }) {
-    const res = await fetch(`/posts.json`);
-    const posts = await res.json();
-
-    return {
-      stuff: {
-        posts,
-      },
-    };
-  }
-</script>
-
 <script>
-  import "../../static/global.css";
+  import "$lib/css/global.css";
   import { darkMode } from "$lib/stores";
   import Footer from "$lib/Footer.svelte";
   import Header from "$lib/Header.svelte";
